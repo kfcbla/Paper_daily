@@ -1,7 +1,38 @@
 {
   "permissions": {
     "allow": [
-      "WebSearch"
+      "WebSearch",
+      "Bash(git push *)",
+      "Bash(git -c http.sslVerify=false push origin main)",
+      "Bash(python -c \"import pptx; print\\('ok'\\)\")",
+      "Bash(pip install *)",
+      "PowerShell(pip install python-pptx)",
+      "PowerShell(python -c \"import pptx; print\\('ok'\\)\")",
+      "PowerShell(python c:\\\\coding\\\\Learning\\\\scripts\\\\gen_ppt.py)",
+      "PowerShell(python c:\\\\coding\\\\Learning\\\\scripts\\\\gen_ppt.py 2>&1)",
+      "PowerShell(python c:\\\\coding\\\\Learning\\\\scripts\\\\gen_ppt_deep.py 2>&1)",
+      "WebFetch(domain:arxiv.org)",
+      "WebFetch(domain:encord.com)",
+      "WebFetch(domain:ai.meta.com)",
+      "WebFetch(domain:www.lightly.ai)",
+      "WebFetch(domain:github.com)",
+      "Bash(gh api *)",
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Read(//c/Users/bla/.claude/projects/c--coding-Learning/93295708-e429-468e-945c-a0e1ac031898/**)",
+      "Bash(cp \"/c/Users/bla/.claude/projects/c--coding-Learning/93295708-e429-468e-945c-a0e1ac031898/tool-results/webfetch-1778834569710-11ntcu.bin\" /tmp/hidream-o1.pdf)",
+      "Read(//tmp/**)",
+      "Bash(python)",
+      "Bash(2>&1)",
+      "Bash(PYTHONIOENCODING=utf-8 python)",
+      "Bash(curl -sL --max-time 30 https://raw.githubusercontent.com/HiDream-ai/HiDream-O1-Image/main/models/qwen3_vl_transformers.py -o /c/coding/Learning/_hidream_qwen3vl.py)",
+      "PowerShell(Invoke-WebRequest -Uri \"https://raw.githubusercontent.com/HiDream-ai/HiDream-O1-Image/main/models/qwen3_vl_transformers.py\" -OutFile \"c:\\\\coding\\\\Learning\\\\_hidream_qwen3vl.py\" -UseBasicParsing; \\(Get-Item \"c:\\\\coding\\\\Learning\\\\_hidream_qwen3vl.py\"\\).Length)",
+      "PowerShell(Invoke-WebRequest -Uri \"https://raw.githubusercontent.com/HiDream-ai/HiDream-O1-Image/main/models/pipeline.py\" -OutFile \"c:\\\\coding\\\\Learning\\\\_hidream_pipeline.py\" -UseBasicParsing; \\(Get-Item \"c:\\\\coding\\\\Learning\\\\_hidream_pipeline.py\"\\).Length)",
+      "Read(//c/Users/bla/AppData/Local/Temp/claude/c--coding-Learning/93295708-e429-468e-945c-a0e1ac031898/tasks/**)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\bla\\.claude\\projects\\c--coding-Learning\\93295708-e429-468e-945c-a0e1ac031898\\tool-results",
+      "C:\\coding\\Learning"
     ]
   }
 }
